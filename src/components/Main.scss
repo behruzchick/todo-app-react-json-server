@@ -1,0 +1,16 @@
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+        header{
+            display: flex;
+            align-items: center;
+            background-color: black;
+            width: 100%;
+            justify-content: space-around;
+                h4{
+                    color: #fff;
+                }
+        }
+}

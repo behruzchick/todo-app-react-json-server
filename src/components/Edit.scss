@@ -1,0 +1,40 @@
+.edit_user_wrape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+            label{
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+                margin-bottom: 15px;
+                    input{
+                        width: 600px;
+                        outline: none;
+                        border: none;
+                        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                        padding: 12px;
+                            
+                    }
+                    .error_message{
+                        box-shadow: rgb(251, 2, 2) 0px 5px 15px;
+                    }
+            }
+    }
+    button{
+        padding: 10px 30px;
+        border: none;
+        outline: none;
+        background-color: rgb(28, 213, 11);
+        border-radius: 5px;
+    }
+    .back_btn{
+        background-color: red   ;
+    }
+}
